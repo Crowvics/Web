@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Função</title>
+    <link rel = "stylesheet" href = "propriedades.css">
+    <style type = "text/css">
+        div.conteudo {background-color: aliceblue; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+        padding: 40px; border-radius: 10px; border: none}
+    </style>
+</head>
+<body>
+<div class = "conteudo">
+<table id="tabela" border="1">
+
+<tr><td>Nome</td>
+
+<td>Profissão</td></tr>
+
+<tr><td>Ivan Ilitch</td>
+
+<td>Oficial da Corte de Justiça</td></tr>
+
+<tr><td>Konstantin Levin</td>
+
+<td>Fazendeiro</td></tr>
+
+</table><br>
+
+<input type="button" onclick="inserir()" value="Inserir"> 
+</div>
+<script>
+    function inserir() {
+        let nome = prompt ("Digite o nome")
+        let profissao = prompt ("Digite a profissão")
+        var tabela = document.getElementById("tabela")
+        var qtdLinhas = tabela.rows.length
+        var linha = tabela.insertRow (qtdLinhas)
+        var novoNome = linha.insertCell (0)
+        var novaProfissao = linha.insertCell (1)
+        novoNome.innerHTML = nome
+        novaProfissao.innerHTML = profissao
+    }
+    </script>
+
+</body>
+</html>

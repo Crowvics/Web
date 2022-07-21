@@ -1,0 +1,47 @@
+Utilizando como base o código abaixo, complete a função para que ao clicar no botão um novo nome e profissão sejam inseridos à tabela.
+
+Você poderá ler novos nomes/profissões usando a função prompt ou criando um formulário para que o usuário preencha os dados.
+
+Utilize CSS para incrementar o estilo da página.
+
+ 
+
+<!DOCTYPE html>
+
+<html><head>
+
+<script>
+
+function inserir() {
+
+ 
+
+}
+
+</script>
+
+<meta charset=utf-8 />
+
+<title>Tabela e Formulario</title>
+
+</head><body>
+
+<table id="tabela" border="1">
+
+<tr><td>Nome</td>
+
+<td>Profissão</td></tr>
+
+<tr><td>Ivan Ilitch</td>
+
+<td>Oficial da Corte de Justiça</td></tr>
+
+<tr><td>Konstantin Levin</td>
+
+<td>Fazendeiro</td></tr>
+
+</table><br>
+
+<input type="button" onclick="inserir()" value="Inserir"> 
+
+</body></html>

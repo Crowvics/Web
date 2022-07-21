@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+</head>
+<body>
+    <table border = 1>
+        <tr>
+            <td><label>Nome: </td> <td><input type = "text" size = "73" placeholder = "Victor da Luz Ribeiro" name = "nome"></label></td>
+        </tr>
+
+        <tr>
+            <td><label>Endereço: </td> <td><input type = "text" size = "73" placeholder = "Rua João Batista Viggiano" name = "endereço"></label></td>
+        </tr>
+
+        <tr>
+            <td><label>Cidade: </td> <td><input type = "text" size = "73" placeholder = "Ponte Nova" name = "cidade"></label></td>
+        </tr>
+
+        <tr>
+          <td><label>Estado: </td> <td><input type = "text" size = "73" placeholder = "Minas Gerais" name = "estado"></label></td>
+        </tr>
+
+        <tr>
+            <td><label>Cep: </td> <td><input type = "text" size = "73" placeholder = "35430-140" name = "cep"></label></td>
+        </tr>
+
+        <tr>
+            <td><label>Telefone: </td> <td><input type = "tel" size = "73" placeholder = "(xx) xxxx-xxxx"
+                pattern = "^\(?\d{2}\)\d{4}[-\s]\d{4}.*?$"></label></td>
+        </tr>
+
+        <tr>
+            <td><label>Escolaridade: </td> <td><fieldset>
+            <label><input type = "radio" name = "escolaridade" value = "ens_fundamental">Ensino Fundamental</label>
+            <label><input type = "radio" name = "escolaridade" value = "ens_medio">Ensino Médio</label>
+            <label><input type = "radio" name = "escolaridade" value = "ens_superior">Ensino Superior</label>
+            <label><input type = "radio" name = "escolaridade" value = "pos_graduacao">Pós-graduação</label>
+            </fieldset></td>
+        </tr>
+
+        <tr>
+            <td><label>Data de nascimento: </td> <td><input type = "date" size = "73" name = "data"></label></td>
+        </tr>
+
+        <tr>
+            <td><label>Email: </td> <td><input type = "email" size = "73" placeholder = "victorluzribeiro@gmail.com" name = "email"></label></td>
+        </tr>
+
+        <tr>
+            <td><label>Endereço URL do perfil do Instagram: </td> <td><input type = "url" size = "73" placeholder = "https://www.instagram.com/zuck/" name = "url"></label></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <label><input type = "submit"></label>
+</body>
+</html>

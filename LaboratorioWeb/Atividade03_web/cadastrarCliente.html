@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type = "text/css">
+        *{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        body{
+            background-color: #D3D3D3;
+            background-size: cover;
+        }
+        div{
+            background-color: rgba(0, 0, 0, 0.9); 
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              padding: 80px;
+              border-radius: none;
+              color: white;
+        }
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        input[type=submit]{
+            background-color: #836FFF;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+        }
+        input[type=submit]:hover{
+            background-color:#6959CD;
+        }
+        a:link{
+            color:white;
+        }
+        a:visited {
+            color: white;
+        }
+        a:hover {
+        color: red;
+        }
+    </style>
+    <title>Cadastro</title>
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <center><h1>Cadastro</h1></center>
+    
+    <h3><a href = "site.php">Página Inicial</a></h3>
+    
+        <form method = "POST" action = "cadastroCliente.php">
+            ID <br>
+            <input type = "text" name = "txt_id"> <br>
+            Nome <br>
+            <input type = "text" name = "txt_nome"> <br> 
+            Email <br>
+            <input type = "email" name = "txt_email"> <br>
+            Endereço <br>
+            <input type = "text" name = "txt_end"> <br>
+            Cidade <br>
+            <input type = "text" name = "txt_cidade"> <br>
+            Estado <br>
+            <input type = "text" name = "txt_uf"> <br> <br>
+            
+            <input type = "submit" value = "Cadastrar"> <br> 
+        </form>
+    </div>
+</body>
+</html>

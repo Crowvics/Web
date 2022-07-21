@@ -1,0 +1,5 @@
+Crie uma página em JavaScript que leia o nome do usuário e dois valores digitados por ele. Realize as 4 operações básicas
+da matemática (soma, subtração, multiplicação e divisão) usando esses valores e apresente os resultados ao usuário.
+
+Faça o exercício usando prompt e alert, mas tente pesquisar como fazer para ler variáveis a partir de inputs de formulários
+e como apresentar o resultado no próprio HTML. Esse será o conteúdo da nossa próxima aula.

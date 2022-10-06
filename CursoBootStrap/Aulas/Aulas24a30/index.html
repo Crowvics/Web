@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap aulas 25 a 30</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+    <body>
+        <! – Video 25 ->
+        <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item">
+                <a href="#cursoBootstrap" data-bs-toggle="tab" class="nav-link">Bootstrap</a>
+            </li>
+            <li class="nav-item">
+                <a href="#cursoCSS" data-bs-toggle="tab" class="nav-link">CSS</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="cursoBootstrap" class="tab-pane container-fluid bg-primary p-3">Curso BS</div>
+            <div id="cursoCSS" class="tab-pane container-fluid bg-success p-3">Curso CSS</div>
+        </div>
+
+        <br>
+        <! – Video 26 ->
+        <nav class="navbar navbar-expand bg-dark navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <a class="navbar-brand" href="#">
+                    <img src="#" style="width: 40px;">
+                    </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Arduino</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Java</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <br>
+        <! – Video 27 ->
+        <nav class="navbar bg-dark navbar-dark">
+            <div class="container-fluid">
+                
+                <a class="navbar-brand" href="#">
+                <img src="#" style="width: 40px;">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuCursos" style="cursor: pointer" aria-expanded="true">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse" id="menuCursos">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Arduino</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Java</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <! – Video 28 ->
+        <nav class="navbar bg-dark navbar-dark">
+            <div class="container-fluid">
+                
+                <a class="navbar-brand" href="#">
+                <img src="#" style="width: 40px;">
+                </a>
+
+                <form class="d-flex">
+                    <input class="form-control mr-5" type="text"/>
+                    <button class="btn btn-primary m-2">Pesquisar</button>
+                </form>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuCursos" style="cursor: pointer" aria-expanded="true">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse" id="menuCursos">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Arduino</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Java</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <! – Video 29 ->
+        <div id="banner" class="carousel slide" data-bs-ride="carousel">
+            <div id="indicadores" class="carousel-indicators">
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button>
+            </div>
+
+            <div id="imagens" class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="b1.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="b2.jpg" class="d-block w-100">
+                </div>
+            </div>
+
+            <button type="button" class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <br>
+        <! – Video 30 ->
+        <div id="banner" class="carousel slide" data-bs-ride="carousel">
+            <div id="indicadores" class="carousel-indicators">
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button>
+            </div>
+
+            <div id="imagens" class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="b1.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h2>Fotos aleatórias para teste</h2>
+                        <p>Texto aleatório</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="b2.jpg" class="d-block w-100">
+                </div>
+            </div>
+
+            <button type="button" class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </body>
+</html>
